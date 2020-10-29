@@ -17,7 +17,7 @@ function on_touch()
 function onend()
 {
 	recognition.stop();
-	recogniztion_startup = false;
+	recognition_started = false;
 	
 }
 
